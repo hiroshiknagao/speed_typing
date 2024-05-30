@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: rgb(101, 100, 100);
+  }
+
+body .quote-input {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  background-color: rgb(240, 240, 245);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 700px;
+  max-width: 85%;
+}
+
+.timer  {
+  position: absolute;
+  top: 2rem;
+  font-size: 3rem;
+  color: rgb(240, 240, 245);
+  font-weight: bold;
+
+}
